@@ -1,0 +1,6 @@
+{
+  "name": "Vocab A1",
+  "description": "Інтерактивна вікторина для запам'ятовування англійських слів рівня А1 з вимовою, картками та різними режимами тренування.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
