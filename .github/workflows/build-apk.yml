@@ -28,7 +28,7 @@ jobs:
         uses: gradle/actions/setup-gradle@v4
 
       - name: Build APK
-        run: gradle assembleDebug --no-daemon
+        run: gradle assembleDebug -x kspDebugKotlin --no-daemon
 
       - name: Upload APK artifact
         uses: actions/upload-artifact@v4
